@@ -1,5 +1,5 @@
 <?php
-    require_once 'models/detallepedido.php';
+    require_once 'models/detallePedido.php';
     require_once 'models/database.php';
     require_once 'libs/IConexion.php';
     require_once 'libs/ConexionFabrica.php';
