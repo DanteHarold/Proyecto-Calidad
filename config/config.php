@@ -1,5 +1,5 @@
 <?php
-    define('URL', 'http://localhost/Proyecto-Calidad/');
+    define('URL', 'https://sistemacalidad-php.herokuapp.com/');
 
     define('HOST', 'ec2-44-199-143-43.compute-1.amazonaws.com');
     define('DB', 'db9kgmov4l6tt1');

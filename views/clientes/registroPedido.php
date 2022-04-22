@@ -130,7 +130,7 @@
 
             let id = valor.value.substring(valor.value.lastIndexOf('-')+1)
  
-            const path = ('http://localhost/Proyecto-Calidad/clientes/verificarPedido/'+id)
+            const path = ('https://sistemacalidad-php.herokuapp.com/clientes/verificarPedido/'+id)
 
             fetch(path)
                 .then(response => (response.ok) ? Promise.resolve(response) : Promise.reject(new Error("Fail To Load")))
