@@ -1,6 +1,6 @@
 ##  Sistema-Foragoza
 
-**  Proyecto para el curso de calidad y pruebas de software **
+**Proyecto para el curso de calidad y pruebas de software**
 
 *   Tener instalado el XAMPP
 
