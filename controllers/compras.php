@@ -139,7 +139,7 @@
 
 
             //CARGAR LOS DATOS DEL DETALLE PEDIDO
-            require_once 'models/detallecomprasModel.php';
+            require_once 'models/detallecomprasmodel.php';
             $detalleCompra = new detallecomprasModel();
             $this->view->detalleCompra  = $detalleCompra->getByIdCompra($compra->getId());
 

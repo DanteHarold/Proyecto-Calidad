@@ -158,7 +158,7 @@
             $this->view->local2  = $local->getById($pedido->getIdLocal());
 
             //CARGAR LOS DATOS DEL DETALLE PEDIDO
-            require_once 'models/detallepedidosModel.php';
+            require_once 'models/detallepedidosmodel.php';
             $detallePedido = new detallepedidosModel();
             $this->view->detallePedido  = $detallePedido->getByIdPedido($pedido->getId());
             // echo $this->view->detallePedido->getCantidad();
