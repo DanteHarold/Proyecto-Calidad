@@ -1,0 +1,62 @@
+body{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.login-box{
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 40%;
+    h1{
+        font-size: 40px;
+        border-bottom: 3px solid #49914d;
+        margin-bottom: 30px;
+        padding: 10px 0;
+    }
+    .textbox{
+        width: 100%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        margin: 8px 0;
+        border-bottom: 1px solid #49914d;
+    }
+    
+    .textbox i{
+        width: 25px;
+        text-align: center;
+    }
+    .textbox input{
+        border: none;
+        outline: none;
+        background:none;
+        color: white;
+        font-size: 18px;
+        width: 150px;
+        margin: 0 10px;
+        color: $dark-color;
+    }
+    
+    
+    .btn{
+        width: 100%;
+        background: none;
+        border: 2px solid #49914d;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 12px 0;
+        color: $dark-color;
+    }
+    .btn:hover{
+        border: 2px solid #49914d;
+    }
+    
+}

@@ -1,0 +1,18 @@
+.footer{
+    font-family: $main-text;
+    position: relative;
+    background-color: $background-color;
+    grid-column: 1/ -1;
+    grid-row: 3/-1;
+    &__text{
+        font-weight: $light-text;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+        position: absolute;
+        width: 50%;  
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+}

@@ -1,0 +1,46 @@
+.sidebar.active{
+    // background-color:red;
+    grid-column: 1/2;
+    .main-menu{
+        &__item:hover{
+            .tooltip{
+                position: absolute;
+                opacity: 1;
+                left: 120%;
+                border-radius: 10px;
+                background-color: white;
+                box-shadow: 3px 3px rgba( 42, 83, 42,0.5);
+                padding: 5px 10px;
+                top: 30%;
+                transition: 1s;
+                font-family: $main-text;
+            }
+        }
+        &__link{
+            display: none;
+        }
+        &__icon{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+}
+.header.active{
+    .logo{
+        display: none;
+    }
+    .text-logo{
+        display: none;
+    }
+    .toggle-menu{
+        left: 0;
+        width: 4.3rem;
+    }
+}
+.main.active{
+    grid-column: 2/-1;
+}

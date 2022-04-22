@@ -1,0 +1,54 @@
+.content{
+    height: 85%;
+
+    &__header input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    &__header--usuario{
+        height: 8%;
+    }
+    &__users{
+       height: 90%;
+    }
+    &__header--usuario,&__user{ 
+       // border: 1px solid red;
+        display: grid;
+        grid-template-columns: 100px repeat(3,1fr) 120px;   
+    }
+    &__header--text{
+        background-color: rgb(252, 199, 224);
+    }
+    &__header--text,&__user--text{
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    &__user--options{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    &__user{
+        .nombre{
+            grid-column: 2/3;
+        }
+        .apellido{
+            grid-column: 3/4;
+        }
+        .email{
+            grid-column: 4/5;
+        }
+        &--options{
+            grid-column: 5/-1;
+        }
+       
+    }
+    overflow-y: auto;
+}

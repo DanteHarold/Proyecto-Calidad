@@ -1,0 +1,29 @@
+$mobile : 360px;
+$tablet : 361px;
+$laptop : 1024px;
+$desktop : 1400px;
+
+@mixin mobile {
+    @media screen and (max-width: $mobile){
+        //cuando Utilizemos la funcion se coloque aqui
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (min-width: $tablet){
+        //cuando Utilizemos la funcion se coloque aqui
+        @content;
+    }
+}
+@mixin laptop {
+    @media screen and (min-width: $laptop){
+        //cuando Utilizemos la funcion se coloque aqui
+        @content;
+    }
+}
+@mixin desktop {
+    @media screen and (min-width: $desktop){
+        //cuando Utilizemos la funcion se coloque aqui
+        @content;
+    }
+}

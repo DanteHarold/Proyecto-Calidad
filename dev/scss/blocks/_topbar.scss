@@ -1,0 +1,43 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 15vw;
+    height: 60px;
+    left: 100%;
+    top: 0;
+    transform: translatex(-100%);
+    &__profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .img{
+                margin: 0 5px;
+                margin-left: 0;
+                width: 45px;
+                border-radius: 15px;
+            }
+        .name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 10px;
+            &__fisrt{
+                font-family: $main-title;
+            }
+            &__job{
+                font-family: $main-text;
+                font-weight: 300;
+                font-size: 11px;
+            }
+        }
+        
+    }
+    .icon{
+        font-size: 36px;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}

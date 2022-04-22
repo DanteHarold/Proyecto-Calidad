@@ -1,0 +1,41 @@
+//Mixins
+@import 'mixins/breakpoints.scss';
+@import 'mixins/resert-list.scss';
+
+//Config
+@import 'config/colors.scss';
+@import 'config/fonts.scss';
+
+//Base
+@import 'base/base.scss';
+@import 'base/normalize.scss';
+
+//Pages
+@import 'pages/ayuda.scss';
+@import 'pages/error.scss';
+@import 'pages/usuarios.scss';
+@import 'pages/productos.scss';
+@import 'pages/clientes.scss';
+@import 'pages/modal_pedido.scss';
+@import 'pages/login.scss';
+@import 'pages/register.scss';
+
+//Blocks
+@import 'blocks/_header.scss';
+@import 'blocks/_sidebar.scss';
+@import 'blocks/_main.scss';
+@import 'blocks/_footer.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/topbar.scss';
+@import 'blocks/logo.scss';
+@import 'blocks/toggle.scss';
+@import 'blocks/text-title.scss';
+@import 'blocks/active.scss';
+@import 'blocks/main-info.scss';
+@import 'blocks/modal.scss';
+@import 'blocks/message.scss';
+@import 'blocks/header-nav.scss';
+@import 'blocks/form.scss';
+
+
+

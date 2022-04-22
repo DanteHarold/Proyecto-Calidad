@@ -1,0 +1,14 @@
+.header {
+    background-color: $background-color;
+    position: relative;
+    // background-color: red;
+    height: 60px;
+    @include laptop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column: 1/-1;
+        grid-row: 1 / 2;
+    }
+    
+}

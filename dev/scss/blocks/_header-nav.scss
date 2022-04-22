@@ -1,0 +1,36 @@
+.icon{
+    &:hover{
+            a{
+                color: $dark-color;
+                text-decoration: none;
+                display: block;
+                margin-top: 3px;
+                border-radius: 15px;
+                width: 100%;    
+                &:hover{
+                    background-color: rgb(204, 199, 199);
+                }
+            }
+    }
+    .nav{
+    background-color: transparent;
+    font-size: 12px;
+    font-family: $main-title;
+    font-weight: $light-text;
+    position: absolute;
+    top: 60px;
+    margin: 0;
+    width: 110px;
+    padding: 0;
+    list-style: none;
+    left: 100%;
+    transform: translateX(-100%);
+    text-align: center;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    a{
+        display: none;
+    }
+}
