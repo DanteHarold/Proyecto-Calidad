@@ -29,38 +29,23 @@
             $idEmpleado = $_POST['empleado'];
             $url1 = explode('-',$idEmpleado);
             $empleado = $url1[1];
-            echo "Empleado: ".$empleado;
-            echo '<br>';
-
 
             $idProveedor = $_POST['proveedor'];
             $url2 = explode('-',$idProveedor);
             $proveedor = $url2[1];
-            echo "proveedor: ".$proveedor;
-            echo '<br>';
 
             //DETALLE PRODUCTO
             $cantidad = $_POST['cantidad'];
-            echo "Cantidad : ".$cantidad;
-            echo '<br>';
 
             $idMaterial = $_POST['material'];
             $url3 = explode('-',$idMaterial);
             $material = $url3[1];
-            echo "Material : ".$material;
-            echo '<br>';
 
             require_once 'models/materialesmodel.php';
             $materialPrecio = new materialesModel();
             $materialP = $materialPrecio->getById($material);
 
-
             $total = $cantidad*$materialP->getPrecio();;
-            echo "Total : ".$total;
-            echo '<br>';
-
-            
-
 
             if($this->model->insert(['fecha'=> $fechaCompra , 'idEmpleado' => $empleado , 'idProveedor'=> $proveedor])){
                 $mensaje = "Compra Agregada";
